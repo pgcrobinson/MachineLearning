@@ -22,7 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="chart_rough_working.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MachineLearning.py" />
+    <Compile Include="ProgramBestFit.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="envMachineLearning\">
